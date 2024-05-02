@@ -5,7 +5,7 @@ from .models import College, Program, Organization, Student, Orgmember
 admin.site.register(College)
 admin.site.register(Program)
 admin.site.register(Organization)
-admin.site.register(Orgmember)
+
 
 @admin.register(Student)
 class StudentAdmin(admin.ModelAdmin):
